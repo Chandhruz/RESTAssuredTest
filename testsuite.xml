@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<test name="RestAssured Automation Test">
+		<classes>
+			<class name="com.test.project.tests.CreateEmail_POST_Test"></class>
+			<class name="com.test.project.tests.RetrieveEmail_GET_Test"></class>
+			<class name="com.test.project.tests.DeleteEmail_DELETE_Test"></class>
+			
+		</classes>
+	</test>
+</suite>
